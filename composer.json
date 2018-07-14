@@ -15,7 +15,9 @@
     "issues": "https://github.com/michalsvec/nette-opauth"
   },
   "require": {
-    "nette/nette": "~2.1",
+    "php": ">=7.0",
+    "nette/application": "~2.4",
+		"nette/security": "~2.4",  
     "opauth/opauth": "*",
     "opauth/facebook": "*",
     "opauth/google": "*",
